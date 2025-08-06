@@ -12,17 +12,16 @@ public class FirstMethodChallange
     }
 
     public static int calculateHighScorePosition(int score){
+        var position = 4;
         if(score >= 1000){
-            return 1;
+            position = 1;
         }
         else if(score >= 500){
-            return 2;
+            position = 2;
         }
-        else if(score >= 100){
-            return 3;
+        else if(score >= 100) {
+            position = 3;
         }
-        else{
-            return 4;
-        }
+        return position;
     }
 }
