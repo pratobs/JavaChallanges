@@ -1,3 +1,5 @@
+package methodsAndLoops;
+
 public class DecimalComparator {
     public static boolean areEqualByThreeDecimalPlaces(double d1, double d2) {
         var intd1 = (int) (d1 * 1000.00);

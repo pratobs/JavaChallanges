@@ -1,3 +1,5 @@
+package methodsAndLoops;
+
 public class MethodOverloadingChallengeTwo {
     public static String getDurationString(int seconds){
         var minutes = seconds/60;

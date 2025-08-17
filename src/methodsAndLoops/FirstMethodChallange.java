@@ -1,3 +1,5 @@
+package methodsAndLoops;
+
 public class FirstMethodChallange
 {
     public static void main(String[] args) {

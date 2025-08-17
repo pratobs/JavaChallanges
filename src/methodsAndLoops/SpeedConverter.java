@@ -1,3 +1,5 @@
+package methodsAndLoops;
+
 public class SpeedConverter {
     public static  long toMilesPerHour(double kilometersPerHour){
         var res = -1.00d;
